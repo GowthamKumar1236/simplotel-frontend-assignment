@@ -1,0 +1,216 @@
+.main-container {
+    height: 100%;
+    margin: -8px;
+}
+
+.bg-container {
+    margin-left: 0px;
+}
+
+.header-container {
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+}
+
+.alignment {
+    display: flex;
+}
+
+.heading {
+    font-family:'Arial';
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    margin-right: 15px;
+    letter-spacing: 0.4px;
+}
+
+.logos {
+    height: 46px;
+    margin-right: 5px;
+}
+
+.space {
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.hotel-image {
+    background-image: url('https://res.cloudinary.com/dzxsnrerx/image/upload/v1724133245/paewzvr4m0ccdawirqrs.jpg');
+    height: 55vh;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.box-container {
+    height: 35px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-end;
+    margin:25px ;
+    background: linear-gradient(to right, #161616 , #787575);
+}
+
+.lorem-heading{
+    font-family: "Arial";
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+.color-container{
+    background-color:  #b7b6b6;
+    height: 90px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.paras{
+    font-family: "Arial";
+    width: 250px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.bottom-container {
+    background-color: rgb(215, 211, 219);
+    height: 20vh;
+    padding: 25px;
+}
+
+.bottom-heading {
+    font-family: "Arial";
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.facilities-container{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.facilities{
+    height: 60px;
+    margin-left: -80px;
+}
+
+
+.facilities-images {
+    padding-top: 10px;
+    height: 130px;
+    width: 190px;
+}
+
+
+.facilities-heading {
+    font-family: "Arial";
+    font-size: 9px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.facilities-info {
+    font-family: "Arial";
+    font-size: 8px;
+    font-weight: 800;
+    width: 195px;
+    line-height: 1.0;
+}
+
+.facilities-btn {
+    background-color: #000000;
+    border-style: solid;
+    height: 25px;
+    width: 100px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 9px;
+    margin-top: 12px;
+}
+
+.dining {
+    text-align: center;
+    width: 192px;
+}
+
+.pools {
+    text-align: right;
+    margin-right: 5px;
+
+}
+
+.btn-center{
+    text-align: center;
+}
+
+.btn-right{
+    text-align: right;
+    margin-right: 5px;
+}
+
+
+@media (min-width: 768px) {
+    .header-container {
+        height: 8vh;
+    }
+
+    .logo {
+        height: 75px;
+    }
+
+    .logos {
+        height: 26px;
+    }
+
+    .hotel-image {
+        background-position: center;
+    }
+
+    .bottom-container{
+        height: 45vh;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .header-container {
+        height: 12vh;
+    }
+
+    .hotel-image {
+        /* background-position: top;
+        background-repeat: space;
+        padding-bottom: 100px; */
+        /* padding-top: 100px; */
+        height: 82vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0px;
+        /* padding-top: 100px; */
+    }
+
+
+}
+
